@@ -1,0 +1,1010 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Prompt";
+  /* clear: both; */
+}
+.Grid {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  height: 100vh;
+  background-color: #e4e6e5;
+}
+.GridLeft {
+  height: 100vh;
+}
+.GridRight {
+  height: 100vh;
+}
+.GridMain {
+  /* border: 5px solid rgb(248, 240, 240); */
+  height: 100vh;
+}
+/* PageAversion2 */
+.sizeBox {
+  height: 100px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+.space {
+  margin-bottom: 10px;
+}
+
+.BoxPageA {
+  border-color: #e4e6e5;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  /* background-color: #fdfdfd; */
+  /* background-color: rgb(218, 218, 218); */
+}
+.Inbox {
+  background-color: #dbdfdd;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.897);
+}
+.HostLine {
+  /* display: flex; */
+  margin-right: 480px;
+  margin-top: 30px;
+  height: 130px;
+}
+.Line1 {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+.L11 {
+  background-color: #03a96b;
+  width: 5px;
+  height: 35px;
+  margin-top: 15px;
+}
+.L12 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Prompt";
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.L13 {
+  font-family: "Prompt";
+  font-size: 13px;
+  margin-left: 15px;
+  background-color: #a9b9ce;
+  height: fit-content;
+  width: 130px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.Line2 {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.L21 {
+  background-color: #03a96b;
+  height: fit-content;
+  width: 125px;
+  border-radius: 15px;
+  font-family: "Prompt";
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
+.L22 {
+  background-color: #a5d5c2;
+  font-family: "Prompt";
+  font-size: 15px;
+  margin-left: 12px;
+  border-radius: 5px;
+  width: fit-content;
+  text-align: center;
+}
+.tab {
+  background-color: #535554;
+  width: 12px;
+  height: 80px;
+  margin-top: 15px;
+}
+.numberIndex {
+  margin-top: 15px;
+  /* background-color: #a7abab; */
+  background-color: #b9c8cf;
+  width: 70px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.buttonCom {
+  height: 80px;
+  width: 600px;
+  /* margin: 0.2em; */
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 100px;
+  /* letter-spacing: 2px; */
+  color: #212221;
+  background: #cccecc;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  outline: none;
+  /* padding: 10px; */
+}
+.KNP {
+  margin-top: 15px;
+  background-color: #cccecc;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.keyNextpage {
+  /* margin-top: 32.5px; */
+  /* margin-left: 5px; */
+  transition: all 0.3s ease-in-out 0s;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #1aaf58;
+  border-style: solid;
+  border-color: #05aa6c;
+  font-family: "Prompt";
+  color: #dbd8d8;
+  margin-right: 15px;
+}
+.keyNextpage:hover {
+  transform: translateY(-7px);
+  width: 150px;
+  height: 45px;
+}
+.settingCom {
+  color: rgba(0, 0, 0, 0.74);
+  font-family: "Prompt";
+  font-size: 25px;
+  font-weight: 500;
+}
+.icon {
+  width: 30px;
+}
+/* Userscreen */
+
+.navv {
+  width: 100%;
+  height: 500px;
+}
+.user-welcomee {
+  color: rgb(206, 203, 203);
+}
+.user-welcomee-name {
+  color: rgb(206, 203, 203);
+  margin-left: 5px;
+  font-family: "prompt";
+}
+.navbar-custom {
+  height: 80px;
+  background-color: #000;
+  /* background-color: rgba(24, 28, 33, 0.9); */
+  transition: box-shadow 0.5s;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+.logo-ku-userpage {
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.backAdmin {
+  background-color: #0badab46;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px rgba(58, 59, 59, 0.425);
+  cursor: pointer;
+  height: 50%;
+  -webkit-border-radius: 4px;
+}
+
+/*                PageBversion2                          */
+/* .BoxUser {
+  width: 800px;
+  height: 100px;
+  background-color: #c4c9c6;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+} */
+.version2 {
+  background-color: #e4e6e5;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Inbox2 {
+  margin-top: 20px;
+  background-color: #dbdfdd;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.897);
+}
+.HostK {
+  /* margin-left: 30px; */
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-right: 510px;
+  /* width: fit-content; */
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.K1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.K11 {
+  background-color: #03a96b;
+  width: 5px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.K12 {
+  font-size: 25px;
+  color: #212529;
+  text-align: center;
+  font-family: "Prompt";
+  margin-top: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+  width: fit-content;
+  margin-right: 5px;
+}
+.K13 {
+  height: fit-content;
+  background-color: #05aa6d;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  color: #c9cce7;
+  font-family: "Prompt";
+  margin-top: 18px;
+  font-size: 13px;
+}
+.TerK {
+  display: inline-flex;
+}
+.K14 {
+  font-family: "Prompt";
+  background-color: #4c4f52;
+  height: fit-content;
+  width: 80px;
+  color: #c9cce7;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-top: 18px;
+  font-size: 13px;
+}
+.K2 {
+  display: flex;
+  align-items: center;
+}
+.K21 {
+  font-family: "Prompt";
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #b9c5d1;
+  width: 120px;
+  text-align: center;
+  border-radius: 5px;
+}
+.K22 {
+  background-color: #56f376d0;
+  width: 5px;
+  height: 25px;
+  margin-left: 5px;
+}
+.K23 {
+  font-family: "Prompt";
+  font-size: 18px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.z {
+  display: flex;
+  height: 100%;
+  width: 700px;
+}
+.Inputbox {
+  display: flex;
+  margin: 10px;
+  height: 80px;
+  width: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.BeforeNumber {
+  background-color: #535554;
+  height: 100%;
+  width: 10px;
+}
+.ZoneNumber {
+  width: 70px;
+  height: 100%;
+  background-color: #b9c8cf;
+  font-family: "Prompt";
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: #212529;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+}
+.BodyZone {
+  display: flex;
+  background-color: #c4c9c6;
+  width: 800px;
+  /* margin: 10px; */
+}
+.ZoneQuestion {
+  margin-left: 10px;
+  /* margin-top: 20px; */
+  width: 500px;
+  height: 100% inherit;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+}
+.ZoneButton {
+  width: 250px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+.B1 {
+  background-color: #679eddbb;
+  /* background-color: #03a96b; */
+  color: #0c0e0d;
+  border-radius: 5px;
+  border-style: solid;
+  width: 90px;
+  height: 47px;
+  font-family: "kanit", sans-serif;
+  border-color: #6ba4ee;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.B1:hover {
+  background-color: #3b81d1;
+  /* transform: translateX(-7px); */
+  color: #060707;
+  transition: all 0.3s ease-in-out 0s;
+}
+.B1:focus {
+  outline: none;
+  /* box-shadow: none; */
+}
+.iconBa {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+}
+.iconBb {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  margin-top: 3px;
+}
+.B2 {
+  /* background-color: #90949234; */
+  background-color: #c5b55a;
+  margin-left: 10px;
+  color: #080808;
+  border-radius: 5px;
+  border-style: none;
+  font-family: "kanit", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  width: 90px;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.B2:hover {
+  background-color: rgba(160, 158, 158, 0.961);
+  /* transform: translateY(-7px); */
+  transition: all 0.3s ease-in-out 0s;
+  /* transform: translateX(-7px); */
+  color: #161817;
+}
+.B2:focus {
+  outline: none;
+}
+.itemQ {
+  font-family: "Prompt";
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  /* max-height: 25vh; */
+}
+.desc {
+  font-family: "Prompt";
+  font-size: 20px;
+  padding-left: 20px;
+}
+/* .Answer {
+  width: 400px;
+  height: 35px;
+  margin-left: 28px;
+  box-shadow: 4px 4px 4px rgb(66, 66, 63);
+  font-family: "Prompt";
+  font-size: 15px;
+  color: #000000;
+  border-style: none;
+  text-align: center;
+} */
+.newAnswer {
+  /* text-align: center; */
+  margin-left: 30px;
+}
+.Answer.B1:hover {
+  border-style: none;
+}
+.TextareaModalText {
+  height: 150px;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 28px;
+  background-color: rgb(179, 238, 151);
+  color: rgb(66, 61, 61);
+  font-family: "Prompt";
+  border-style: none;
+  padding: 0.5em;
+  box-shadow: 4px 4px 4px rgb(66, 66, 63);
+}
+.headpopup {
+  font-family: "kanit", sans-serif;
+  color: #006765;
+}
+.SizeModal {
+  flex-direction: column;
+}
+.MDT {
+  width: 80px;
+  margin-left: 8px;
+  font-family: "kanit", sans-serif;
+  margin-right: none;
+}
+.MDTT {
+  font-family: "kanit", sans-serif;
+  width: 80px;
+}
+.ZoneHead {
+  display: flex;
+  justify-content: center;
+  /* width: fit-content; */
+}
+.positionB {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+.iconBackhome {
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+}
+.BackHome {
+  display: flex;
+  width: 85px;
+  height: 35px;
+  font-family: "Prompt";
+  border-radius: 5px;
+  color: rgb(92, 87, 87);
+  margin-top: 50px;
+  /* margin-left: 10px; */
+  border: 1px solid;
+  border-color: rgba(192, 185, 185, 0.788);
+  transition: all 0.3s ease-in-out 0s;
+  font-size: 14px;
+  border-style: solid;
+  justify-items: center;
+  align-items: center;
+}
+
+.BackHome:focus {
+  outline: none;
+}
+@media (max-width: 1150px) {
+}
+/*                 RESPONSIVE                             */
+@media (max-width: 1024px) {
+  .Grid {
+    width: 100vw;
+    height: 100vh;
+  }
+  .GridMain {
+    width: 100vw;
+  }
+  .GridRight {
+    display: none;
+  }
+  .GridLeft {
+    width: 0vw;
+  }
+  .HostLine {
+    margin: 0;
+    margin-right: 380px;
+    /* margin-left: 10%; */
+    /* height: fit-content; */
+  }
+  .Inbox {
+    width: 88vw;
+    height: fit-content;
+    align-items: center;
+  }
+  .sizeBox {
+    width: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .buttonCom {
+    width: 600px;
+  }
+  .BackHome {
+    position: absolute;
+    /* margin-left: 620px; */
+    margin-top: 30px;
+    margin-left: 86%;
+    margin-right: 14%;
+  }
+  .ZoneHead {
+    margin: 0;
+    width: 100vw;
+  }
+  .HostK {
+    width: 70vw;
+    margin: 0;
+    display: flex;
+    /* margin-left: 100px; */
+  }
+  .K1 {
+    margin: 0;
+    justify-content: flex-start;
+  }
+  .K2 {
+    margin: 0;
+    justify-content: flex-start;
+  }
+  .Inbox2 {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 5px;
+  }
+  .Inputbox {
+    width: fit-content;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .BeforeNumber {
+    width: 5px;
+  }
+  .BodyZone {
+    display: flex;
+    width: 85%;
+  }
+  .ZoneQuestion {
+    width: 350px;
+  }
+  .ZoneButton {
+    display: flex;
+    margin: 0;
+    margin-left: 33px;
+  }
+  .B2 {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 850px) {
+  .settingCom {
+    font-size: 25px;
+  }
+  .HostLine {
+    margin-right: 250px;
+  }
+  .Inbox2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: fit-content;
+  }
+  .BodyZone {
+    width: 85%;
+  }
+}
+@media (max-width: 760px) {
+  .Inbox2 {
+    width: 95%;
+  }
+  .Inputbox {
+    width: 98%;
+  }
+  .itemQ {
+    font-size: 15px;
+  }
+  .BodyZone {
+    width: 85%;
+  }
+}
+
+@media (max-width: 700px) {
+  .BackHome {
+    position: absolute;
+    /* margin-left: 620px; */
+    margin-top: 30px;
+    margin-left: 80%;
+    margin-right: 20%;
+  }
+  .BackHome:hover {
+    width: 85px;
+    height: 35px;
+    /* border: none; */
+    /* border-style: inherit; */
+  }
+  .sizeBox {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .HostLine {
+    margin-right: 70px;
+  }
+  .buttonCom {
+    width: 500px;
+    /* border-radius: 22px; */
+  }
+  .keyNextpage {
+    font-size: 12px;
+    width: 110px;
+  }
+
+  .Inbox2 {
+    width: 90vw;
+  }
+  .BodyZone {
+    width: 82%;
+  }
+  .BackHome {
+    position: fixed;
+  }
+}
+@media (max-width: 600px) {
+  .BackHome {
+    margin: 0;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: inherit;
+  }
+  .BackHome:hover {
+    width: 31px;
+    height: 35px;
+    /* border: none; */
+    /* border-style: inherit; */
+  }
+  .iconBackhome {
+    width: 30px;
+    height: 30px;
+  }
+  .fontBackhome {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .settingCom {
+    font-size: 18px;
+  }
+  .BodyZone {
+    width: 78%;
+  }
+  .K12 {
+    font-size: 20px;
+  }
+  .Inputbox {
+    height: 50%;
+    /* margin-bottom: 1px; */
+  }
+  .K23 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .Grid {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+  }
+  .GridLeft {
+    display: 0vw;
+  }
+  .GridRight {
+    display: none;
+  }
+
+  .sizeBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+  .Inbox {
+    height: fit-content;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  .HostLine {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 120px;
+  }
+
+  .Line1 {
+    flex-direction: column;
+    margin: 0;
+  }
+  .L11 {
+    height: 5px;
+    width: 100vw;
+    margin: 0;
+    display: none;
+  }
+  .L12 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .L13 {
+    margin: 0;
+    width: 80px;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+  }
+  .Line2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .L21 {
+    margin: 0;
+    margin-bottom: 4px;
+  }
+  .L22 {
+    margin: 0;
+    background-color: #a5d5c2;
+    margin-top: 5px;
+    width: 80%;
+  }
+  .sizeBox {
+    flex-direction: column;
+    width: 90vw;
+    height: 200px;
+  }
+  .tab {
+    height: 10px;
+    width: 90vw;
+  }
+  .numberIndex {
+    height: fit-content;
+    width: 90vw;
+    margin: 0;
+    font-size: 20px;
+  }
+  .buttonCom {
+    margin: 0;
+    width: 90vw;
+    height: 100px;
+  }
+  .settingCom {
+    font-size: 20px;
+  }
+  .KNP {
+    margin: 0;
+    width: 90vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    /* background-color: #b4af60e7; */
+  }
+  .keyNextpage {
+    margin: 0;
+  }
+
+  .ZoneHead {
+    width: 100vw;
+  }
+  .HostK {
+    width: 100vw;
+    margin: 0;
+  }
+  .K1 {
+    flex-direction: column;
+  }
+  .K11 {
+    display: none;
+  }
+  .K12 {
+    width: 100vw;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .K13 {
+    margin: 0;
+  }
+  .K14 {
+    margin: 0;
+    /* margin-top: 5px; */
+    margin-left: 5px;
+  }
+  .K2 {
+    /* flex-direction: column; */
+    align-items: center;
+    background-color: rgb(186, 196, 228);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5px;
+    width: 100vw;
+  }
+  .K21 {
+    margin: 0;
+    background-color: unset;
+    display: none;
+  }
+  .K22 {
+    width: 100vw;
+    height: 3px;
+    margin: 0;
+    display: none;
+    /* text-decoration: #; */
+  }
+  .K23 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .Inbox2 {
+    width: 95vw;
+    margin-top: 20px;
+    /* background-color: none; */
+    height: fit-content;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .version2{
+    /* background-color: #000; */
+    height: 100%;
+  }
+  .Inputbox {
+    /* margin: 0; */
+    /* width: 100vw; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: fit-content;
+  }
+  .BeforeNumber {
+    width: 90vw;
+    height: 10px;
+  }
+  .ZoneNumber {
+    width: 90vw;
+    font-size: 20px;
+    height: fit-content;
+  }
+  .BodyZone {
+    flex-direction: column;
+    margin: 0;
+    width: 90vw;
+    /* height: 50vw; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .ZoneQuestion {
+    width: 90vw;
+    height: 15vh;
+  }
+  .itemQ {
+    width: 80vw;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .ZoneButton {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: 0;
+    margin-bottom: 15px;
+    height: fit-content;
+  }
+  .B1 {
+    width: 140px;
+    height: 50px;
+  }
+  .B2 {
+    width: 140px;
+    height: 50px;
+  }
+}
+
+.fontexcel {
+  font-family: "Prompt";
+  font-size: 12px;
+  color: #006765;
+  border-style: solid;
+  border-color: #5493db;
+}
+.setbuttonToEXCEL {
+  margin-left: 60px;
+  margin-top: 60px;
+  border-radius: 30px;
+  background-color: #5493db;
+}
+.setbuttonToEXCEL:hover {
+  background-color: #b7db54;
+}
